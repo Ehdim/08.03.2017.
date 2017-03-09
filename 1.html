@@ -1,0 +1,27 @@
+<html>
+    <head>
+    </head>
+    <body>
+    <script>
+          var array=[3, 'a', 'a', 'a', 2, 3,3,3, 'a', 'a',3, 'a', 2, 4, 9, 3];
+          function js() { 
+                    var b = 0;    
+                     var c=[];
+                     var a=0;   
+                        for (var i=0; i<array.length; i++) { 
+                            for (var j=i; j<array.length; j++) {
+                                    if (array[i] == array[j])  
+                                    b++;  
+                                    c = array[i];
+                            }
+                            if(b>a){
+                            b=a;   
+                           // c = array[i];
+                            }
+                        }
+                       document.write (   a + ' (defe).') ; 
+                }  
+                js();
+    </script>
+    </body>
+</html>
